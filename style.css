@@ -1,9 +1,112 @@
-img {
-  width: 300px;
-  margin: 50px;
+header {
+  font-family: 'Abril Fatface', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1275px;
 }
 
-img:hover {
-  width: 400px;
-  margin: 0;
+header img {
+  width: 100%; 
+}
+
+.text {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.cimKicsi {   
+ font-size: 30px; 
+ margin-bottom: 0px; 
+} 
+  
+ .cimNagy {  
+ font-size: 60px; 
+ margin-top: 0px;  
+}
+
+.fejImg {
+  position: relative;
+  }
+
+.fejText {
+  position: absolute;
+  bottom: 0px;
+  left: 255px;
+  line-height: 1;
+  
+}
+
+.textPlace {
+  margin: auto;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  line-height: 150%;
+  width: 765px; 
+}
+
+.uppercase {
+  text-transform: uppercase; 
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+.kiemelt {
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-size: 23px;
+  line-height: 150%;
+}
+
+.felirat {
+ font-family: 'Merriweather', serif;
+ margin-top: 0px;
+ font-size: 15px;
+ font-style: italic; 
+ font-weight: bold; 
+ line-height: 80%;
+  }
+
+ul {
+  list-style-type: square;
+  margin-bottom: 30px;
+}
+
+.line {
+  height: 3px;
+  background: black;
+}
+
+blockquote::before {
+  content: '“';
+  font-size: 140px;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  }
+
+blockquote {
+  margin: 0px;
+  width: 765px;
+  font-size: 47px;
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  text-align: left;  
+  background: #444;
+  position: relative;
+  line-height: 150%;
+}
+
+blockquote p {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+
+.onlyText {
+  margin-top: 20px;
 }
